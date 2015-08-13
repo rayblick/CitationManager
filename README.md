@@ -2,7 +2,7 @@
 This code converts exported citations in a txt file to a wordcloud. Note that the wordcloud module has the ability to do what I have done and I consider it to be a a better place to start. 
 
 
-*Example file content saved to txt file*
+##Example *.txt content
 In this example the code would skip this entry because no abstract was include with this citation.
 
 JSTOR CITATION LIST
