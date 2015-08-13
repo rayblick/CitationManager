@@ -105,5 +105,33 @@ for each_file in docs:
     time_estimator = round(toc-tic,2)/(float(document_counter)/float(number_of_docs))
     print 'Elapsed time: %s sec; Number of words counted: %s; Time to complete: %s sec' %(round(toc-tic,1),word_counter,round(time_estimator,1))
 
-    
-#print journal_words           
+#-----------------------------------------------------
+# Generate a tuple of common words
+twords=[]
+for key, values in original_journal_words.items():
+    #for origkey in original_journal_words.keys():
+        #if re.search(key, origkey):
+            #print original_journal_words
+    twords.append((key,values))
+
+twords = sorted(twords,key=lambda x: x[1], reverse=True)
+print twords[1:50] # just a line to check things are working as they should
+
+#----------------------------------
+# Generate wordcloud
+from scipy.misc import imread
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+
+%matplotlib inline # used in Ipython
+tree_mask = imread("clipart.png")
+wc = WordCloud(background_color="white",width=800, height=800, mask=tree_mask, max_words = 500, stopwords=STOPWORDS) #
+wc.generate_from_frequencies(twords)
+plt.imshow(wc)
+plt.axis("off")
+plt.show
+wc.to_file("tree.png") # write to file
+
+
+
+
