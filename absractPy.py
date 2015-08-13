@@ -20,7 +20,7 @@ def read_bibtex(string_of_text):
             
     return dictionary_of_words
 
-
+#-----------------------------------------------
 # main function   
 from wordcloud import STOPWORDS
 import Stemmer
