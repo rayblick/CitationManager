@@ -6,9 +6,12 @@ This code converts exported citations in a txt file to a wordcloud. Note that th
 In this example the code would skip this entry because no abstract was include with this citation.
 
 JSTOR CITATION LIST
-    @article{1970,\n
+    @article{1970,
+    
      jstor_articletype = {misc},
+     
      title = {Front Matter},
+     
      author = {},
      journal = {Journal of Ecology},
      jstor_issuetitle = {},
