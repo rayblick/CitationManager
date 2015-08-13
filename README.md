@@ -9,9 +9,7 @@ JSTOR CITATION LIST
     @article{1970,
     
      jstor_articletype = {misc},
-     
      title = {Front Matter},
-     
      author = {},
      journal = {Journal of Ecology},
      jstor_issuetitle = {},
