@@ -1,9 +1,9 @@
 # **abstractsPy**
-This code converts exported citations in a txt file to a wordcloud. Note that the wordcloud module has the ability to do what I have done and I consider it to be a a better place to start. 
+abstractsPy converts exported citations to a wordcloud. Note that the wordcloud module can do what I have done and I consider it to be a a better place to start. However, if you are compiling text similar to the example below then this program will work.
 
 
 ##Example *.txt content
-In this example the code would skip this entry because no abstract was include with this citation.
+In this example, the program would skip past this entry because there is no abstract content.
 
 JSTOR CITATION LIST
     
