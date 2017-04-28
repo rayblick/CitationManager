@@ -1,0 +1,70 @@
+JSTOR Citation List
+@comment{{ These records have been provided through JSTOR. http://www.jstor.org }}
+
+
+@article{10.2307/40205496,
+ ISSN = {02698463, 13652435},
+ URL = {http://www.jstor.org/stable/40205496},
+ author = {David Raubenheimer and Carol Boggs},
+ journal = {Functional Ecology},
+ number = {1},
+ pages = {1-3},
+ publisher = {[British Ecological Society, Wiley]},
+ title = {Editorial: Nutritional Ecology, Functional Ecology and Functional Ecology},
+ volume = {23},
+ year = {2009}
+}
+
+
+
+
+
+@article{10.2307/2655864,
+ ISSN = {00218901, 13652664},
+ URL = {http://www.jstor.org/stable/2655864},
+ abstract = {1. Environmental change and impact continue to create a major need for the application of ecology. We attempted to ascertain whether authors in the Journal of Applied Ecology made relevant contributions at appropriate spatio-temporal scales to the problems that result. 2. A review of 84 papers published in the Journal during 1999 indicated that all carried information of direct value in environmental management, and 46% made explicit management recommendations. 3. The techniques used most frequently by applied ecologists were correlational (48% of all papers; including ordination) or ANOVA-style comparisons between replicated locations that were either purposely manipulated or contrasted on a priori criteria (38%). Models (13%), laboratory experiments, mark-recapture studies and observational work - involving for example stable isotopes - also figured. This breadth reveals how classical and novel approaches in ecology are brought to bear on real environmental problems. The journal continues to publicise innovative new techniques with applied relevance. 4. In keeping with the widespread use of correlation and a priori contrasts, 34% of published studies in 1999 involved time scales exceeding > 5-10 years. Similarly, 40% of studies approached problems in large, regional contexts. Applied ecologists are clearly providing leadership in developing methods to tackle challenging questions at spatio-temporal scales beyond the capabilities of manipulative ecological experiments. We will augment this area of the Journal's work with a special issue on large-scale processes in 2000. 5. Only 20% of the papers published explicitly state clearly testable hypotheses, but nearly all state clear aims or questions being addressed. 6. Overwhelmingly, papers approach applied ecology by seeking to assess the effects of anthropogenic factors on ecological systems, and a minority assess the effects of organisms on human activity. Few studies, by contrast, use anthropogenic impacts to test or develop ecological theory. We suggest this is an area ripe for development. 7. Points 2, 3 and 4 above demonstrate how the Journal of Applied Ecology communicates the value and utility of ecology to society at large. We prompt leading ecologists to maintain their involvement with the application of ecology to problem solving. We urge authors to emphasize further the generic value in their work. We predict that applied ecology will continue as a vital tool in detecting ecological problems and informing environmental management. It will emerge also as an arena for advancing the fundamental nature of our discipline.},
+ author = {S. J. Ormerod and M. W. Pienkowski and A. R. Watkinson},
+ journal = {Journal of Applied Ecology},
+ number = {6},
+ pages = {847-855},
+ publisher = {[British Ecological Society, Wiley]},
+ title = {Communicating the Value of Ecology},
+ volume = {36},
+ year = {1999}
+}
+
+
+
+
+
+@article{10.2307/3546529,
+ ISSN = {00301299, 16000706},
+ URL = {http://www.jstor.org/stable/3546529},
+ author = {Lonnie W. Aarssen},
+ journal = {Oikos},
+ number = {1},
+ pages = {177-178},
+ publisher = {[Nordic Society Oikos, Wiley]},
+ title = {On the Progress of Ecology},
+ volume = {80},
+ year = {1997}
+}
+
+
+
+
+
+@article{10.2307/827258,
+ ISSN = {00218901, 13652664},
+ URL = {http://www.jstor.org/stable/827258},
+ abstract = {1. The need to rehabilitate and restore ecological resources degraded by overuse was already established when the Journal of Applied Ecology was launched in 1964. In the intervening 40 years, submissions on restoration have increased and now contribute at least 8-12% of the papers published annually. Examples from subjects such as conservation biology, pollution ecology and ecological modelling show that notions of restoration or recovery are now implicit in the philosophy of applied ecology. 2. The terminology of restoration ecology is increasingly clear, but there is still debate about the definition of restoration end-points. Although restoration constitutes the process of assisting recovery, success ultimately depends on whether populations, communities and ecological functions attain limits typical of un-degraded reference systems. With evidence increasing that the removal of stressors is not always sufficient to guarantee restoration success, the true arbiters will be the organisms and processes at which restoration is aimed. Stringent appraisal on these ecological criteria will be required if restored systems are to conserve biodiversity and deliver ecosystem services to the extent that many restoration ecologists believe is possible. 3. Botanical systems have figured most prominently among the Journal's restoration papers, but there is increasing emphasis on the restoration of individual populations or species, often invertebrates or vertebrates such as birds. 4. Recent contributions on restoration to the Journal of Applied Ecology include projects seeking the ideal technical solutions to specific restoration problems. Other papers are distinguished for their seminal value and often show that intervention is preferable to natural succession in delivering a successful outcome. Examples range from species and ecosystem-level restoration to real evidence that large-scale restoration can be achieved by policy instruments such as agri-environment. Papers published in the Journal also show how restoration can bring ecological value to urban locations, where many people now gain their first-ever wildlife experiences. 5. Synthesis and applications. This special profile of five papers follows these themes in developing the assessment of restoration end-points, in understanding the restoration process, and in identifying factors that promote success or bring failure. Restoration ecology offers yet another example where the application of ecology simultaneously provides academic leadership and solutions to real environmental problems. In an era in which the adverse economic and ecological consequences of environmental degradation are increasingly unacceptable, restoration ecology is emerging as one of the most important disciplines in the whole of environmental science.},
+ author = {S. J. Ormerod},
+ journal = {Journal of Applied Ecology},
+ number = {1},
+ pages = {44-50},
+ publisher = {[British Ecological Society, Wiley]},
+ title = {Restoration in Applied Ecology: Editor's Introduction},
+ volume = {40},
+ year = {2003}
+}
+

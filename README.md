@@ -1,8 +1,23 @@
-# **abstractsPy**
-abstractsPy converts exported citations to a wordcloud. Note that the wordcloud module can do what I have done and I consider it to be a a better place to start. However, if you are compiling text similar to the example below then this program will work.
+# Evaluate Bibtex Exports
+
+This script converts exported citations to a wordcloud. Note that the wordcloud module can do most of what I have done here so long as the text is extracted in a format that wordcloud expects. This convienence wrapper is made specifically to assess citation exports from JSTOR or similar citation management tool.
 
 
-##Example *.txt content
+### Dependencies
+
+**Install wordcloud (linux)**
+```bash
+conda install -c amueller wordcloud=1.3.1
+```
+
+** Install wordcloud (Windows) **
+```python
+#Download from : http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud
+pip install wordcloud‑1.3.1‑cp35‑cp35m‑win_amd64.whl
+```
+
+
+### Data Content 
 In this example, the program would skip past this entry because there is no abstract content.
 
 JSTOR CITATION LIST
