@@ -1,0 +1,55 @@
+JSTOR Citation List
+@comment{{ These records have been provided through JSTOR. http://www.jstor.org }}
+
+
+@article{10.5406/jamerfolk.129.512.0127,
+ ISSN = {00218715, 15351882},
+ URL = {http://www.jstor.org/stable/10.5406/jamerfolk.129.512.0127},
+ abstract = {This essay attempts to unpack a core principle of folklore's "field-Imaginary." Characterized here as a cybernetic Ideal, folklorists take for granted that the folklore process entails a tension between mechanisms of randomizing variation and counter forces of stabilizing constraint, leading to some form of dynamic equilibrium. The argument is not that this foundational idea is wrong, but that the simple form in which we receive it from the field-Imaginary limits what we recognize as relevant to folklore studies. A more complex understanding of (neo)cybernetic thinking can help us enlarge our disciplinary frame and contemplate more critically the digital/ computational turn in folklore studies today.},
+ author = {John D. Dorst},
+ journal = {The Journal of American Folklore},
+ number = {512},
+ pages = {127-145},
+ publisher = {[University of Illinois Press, American Folklore Society]},
+ title = {Folklore's Cybernetic Imaginary,
+or, Unpacking the Obvious},
+ volume = {129},
+ year = {2016}
+}
+
+
+
+
+
+@article{10.1086/679525,
+ ISSN = {00979740, 15456943},
+ URL = {http://www.jstor.org/stable/10.1086/679525},
+ abstract = {AbstractWendy Law-Yone’s 2010 novel The Road to Wanting offers a Southeast Asian lens through which one might examine China’s southwestern frontier and relationships forged within the Sino-Myanmar borderlands. The Road to Wanting maps an intersectional, interracial terrain where the past is selectively developed through transnational joint ventures and promises of an improved future with localized flair, a speculative modernity that is fabricated by bodies differentially marked by minoritization, mobility, and capital. Offering a view of “the Wild West of China,” the novel highlights the interactions among peripheral and marginalized populations that are often homogenized in ethnonationalist terms (e.g., as Chinese, Zhonghua minzu, or Burmese). My analysis highlights how Law-Yone’s polyphonic play within this multilingual contact zone generates alternative paradigms for transnational encounters and translocal affective affinities. The essay suggests that an expansive notion of Chinese women’s studies might adapt or borrow from recent transnational and methodological turns in ethnic minority studies and US critical race studies that analyze not only the hegemonies operating within one’s own “home” field (read: nation, race, ethnicity, or discipline) but also imperialistic relationships with a nation’s internal others and geopolitical margins. In this way, then, a transnationally inflected model of feminist sinologies can productively consider the politics of knowledge in the study of Chinese women and men while keeping in mind the effects of Chinese capital and geopolitical power in the nation, in the region, and in the heterogeneous formations of sinophone studies. My reading therefore endeavors to realign our view of what might constitute China studies, feminist sinologies, and Asian/American writing in an increasingly globalized and transnational world.},
+ author = {Tamara C. Ho},
+ journal = {Signs},
+ number = {3},
+ pages = {695-719},
+ publisher = {The University of Chicago Press},
+ title = {Border Crossing: Feminist Sinologies through a Southeast Asian Lens},
+ volume = {40},
+ year = {2015}
+}
+
+
+
+
+
+@article{10.1086/678146,
+ ISSN = {00979740, 15456943},
+ URL = {http://www.jstor.org/stable/10.1086/678146},
+ abstract = {AbstractIn this article, we track the emergence of a new autistic subject, one that is socially inept yet brilliant, earnest yet charming, obsessive yet humorous, arrogant yet vulnerable, and unquestionably worthy of our attention. In contrast to the historic definition of the autist as one lacking the capacity for love, the new autistic subject is enabled and inflected by the gendered construction of autism spectrum disorder (ASD) and holds the promise of being potentially productive and even (desirably) reproductive. Through an analysis of current trends in autism science (extreme male brains and assortative mating) and shifting narratives about autism and love, we trace how processes of heterosexualization inform the shift from loveless to loving and lovable, and we further explore how such processes produce new forms of exclusions in the name of neurodiversity. We locate ASD as a site for the reinscription and biologization of historical ideas about gender as well as the naturalization of normative heterosexuality. Finally, we argue that it is through this process of normalization via heterosexualization that this new subject emerges, leaving many lost to the queer, to the feminine, or to the irredeemably abject.},
+ author = {Angela Willey and Banu Subramaniam and Jennifer A. Hamilton and Jane Couperus},
+ journal = {Signs},
+ number = {2},
+ pages = {369-391},
+ publisher = {The University of Chicago Press},
+ title = {The Mating Life of Geeks: Love, Neuroscience, and the New Autistic Subject},
+ volume = {40},
+ year = {2015}
+}
+

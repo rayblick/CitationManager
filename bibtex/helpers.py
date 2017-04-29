@@ -35,8 +35,8 @@ def bibtex_splitter(file):
     textcapture = []
     
     # List of items to collect
-    items = ['ISSN =', 'abstract =', 'author =', 'journal =', 'number =', 
-         'pages =', 'publisher=', 'title=', 'volume=', 'year=']
+    items = ['ISSN =', 'URL =','abstract =', 'author =', 'journal =', 'number =', 
+         'pages =', 'publisher =', 'title =', 'volume =', 'year =']
     
     # Loop over the file (txt file)
     for doc in file.read().split('@'):

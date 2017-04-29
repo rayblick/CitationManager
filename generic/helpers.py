@@ -5,7 +5,9 @@ import glob
 from nltk.stem.snowball import SnowballStemmer
 import re
 from wordcloud import STOPWORDS
-
+import pandas as pd
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
 
 # Add stemmer
 stemmer = SnowballStemmer("english")
@@ -105,3 +107,41 @@ def deduplicate_dictionary(listofdictionaries):
     Removes duplicate dictionaries in a list.
     """
     return [dict(tupleized) for tupleized in set(tuple(item.items()) for item in listofdictionaries)]
+
+
+def deduplicate_listoflists(listoflists):
+    """
+    """
+    temp=[]
+    for i in listoflists:
+        if i not in temp:
+            temp.append(i)
+    return temp
+
+
+def list_of_dictionaries_to_dataframe(data):
+    """
+    Uses the first dictionary keys to build the headers.
+    Then appends all data to the df.
+    """
+    myDF = pd.DataFrame(columns = data[0].keys())
+    for citation in data:
+        myDF = myDF.append(citation, ignore_index=True)
+    return myDF
+
+
+def create_labels(data, labelname):
+    """
+    """
+    ylabels = []
+    xdicts = []
+
+    for i in range(len(data)):
+        label = data[i][0][labelname]
+        ylabels.append(label)
+        xdicts.append(data[i][1])
+
+    return ylabels, xdicts
+
+
+

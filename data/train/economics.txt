@@ -1,0 +1,194 @@
+JSTOR Citation List
+@comment{{ These records have been provided through JSTOR. http://www.jstor.org }}
+
+
+@article{10.2307/23469766,
+ ISSN = {00028282},
+ URL = {http://www.jstor.org/stable/23469766},
+ author = {David E. Fagnan and Jose Maria Fernandez and Andrew W. Lo and Roger M. Stein},
+ journal = {The American Economic Review},
+ number = {3},
+ pages = {406-411},
+ publisher = {American Economic Association},
+ title = {Can Financial Engineering Cure Cancer?},
+ volume = {103},
+ year = {2013}
+}
+
+
+
+
+
+@article{10.2307/43575571,
+ ISSN = {00279501, 17413036},
+ URL = {http://www.jstor.org/stable/43575571},
+ abstract = {A major objective of the government during the Great Recession has been severely to restrict public sector real wage growth. One potential advantage of performance-related pay schemes is that they naturally offer greater wage responsiveness to fluctuations in the business cycle. Based on evidence from engineering and allied industries during the Great Depression we show that piecework wages exhibited more flexibility than their timework equivalents. We compare and contrast southern/midland engineering districts of Britain with northern districts. The former region was dominated by piece-rated workers and by modern sections of the industry, such as vehicle and aircraft manufacture. Time-rated work predominated in northern districts where older sections -for example, marine and textile engineering - were clustered..},
+ author = {Robert A. Hart and J. Elizabeth Roberts},
+ journal = {National Institute Economic Review},
+ number = {226},
+ pages = {R17-R29},
+ publisher = {Sage Publications, Ltd.},
+ title = {INDUSTRIAL COMPOSITION, METHODS OF COMPENSATION AND REAL EARNINGS IN THE GREAT DEPRESSION},
+ year = {2013}
+}
+
+
+
+
+
+@article{10.2307/23361003,
+ ISSN = {0921898X, 15730913},
+ URL = {http://www.jstor.org/stable/23361003},
+ abstract = {Research usually finds a positive size-efficiency relationship, but few studies focus on sectors dominated by small and medium-sized firms (SMEs). This paper fills this gap by analyzing this relationship in the German mechanical engineering industry sector, which is both successful and increasingly dominated by SMEs. The analysis, using a large and representative dataset, finds that small and large firms are, on average, the most efficient ones, while medium-sized firms have, on average, the greatest inefficiencies. Thus, the size-efficiency relationship is U-shaped rather than monotonically increasing. Additionally, the analysis finds that companies with active owner(s) are significantly more efficient and that capital firms are less efficient than firms with personally liable owners. Being located in either East or West Germany has no effect.},
+ author = {Alexander Schiersch},
+ journal = {Small Business Economics},
+ number = {2},
+ pages = {335-350},
+ publisher = {Springer},
+ title = {Firm size and efficiency in the German mechanical engineering industry},
+ volume = {40},
+ year = {2013}
+}
+
+
+
+
+
+@article{10.2307/23594700,
+ ISSN = {03170861, 19119917},
+ URL = {http://www.jstor.org/stable/23594700},
+ abstract = {Dans cet article, nous montrons, en prenant comme exemple la Fondation canadienne pour l'innovation (FCI), comment les politiques canadiennes en matière de sciences engendrent des formes de « stratifications » à l'intérieur des universités et entre celles-ci. Il existe des différences importantes dans les fonds qu'accorde la FCI selon les champs de connaissances, et cela a entraîné des inégalités croissantes dans le soutien financier dont disposent les chercheurs pour réaliser leurs travaux. Ces inégalités ont de plus renforcé certains modèles de changements, aux plans financier et organisationnel, qui sont en train de refaçonner le fonctionnement des universités. Nous concluons en discutant certaines implications importantes de ce rôle que joue la FCI en imposant une réorganisation de l'enseignement supérieur au Canada. Using the Canada Foundation for Innovation (CFI) as an example, we show how Canadian science policy is influencing patterns of stratification both within and between universities. Substantial differences in CFI funding for certain knowledge fields have produced an increasing inequality in the support that scholars can accrue to fund their research. Further, this differential support has reinforced patterns of financial and organizational change that are reshaping how universities operate. We conclude by discussing some of the wide-ranging implications of a science policy that is re-engineering higher education in Canada.},
+ author = {Neil Guppy and Edward Grabb and Clayton Mollica},
+ journal = {Canadian Public Policy / Analyse de Politiques},
+ number = {1},
+ pages = {1-19},
+ publisher = {[University of Toronto Press, Canadian Public Policy]},
+ title = {The Canada Foundation for Innovation, Sociology of Knowledge, and the Re-engineering of the University},
+ volume = {39},
+ year = {2013}
+}
+
+
+
+
+
+@article{10.2307/43552901,
+ ISSN = {0921898X, 15730913},
+ URL = {http://www.jstor.org/stable/43552901},
+ abstract = {This article examines how the scientific specialization of universities impacts new firm creation across industries at the local level. In accordance with the Pavitt-Miozzo-Soete taxonomy, we consider eight industry categories, which reflect the characteristics of firms' innovation patterns and, ultimately, the knowledge inputs that firms require. Using data on new firm creation in Italian provinces (i.e., at the NUTS3 level), we estimate negative binomial regression models separately for each industry category to relate new firm creation to the scientific specialization in basic sciences, applied sciences and engineering, and social sciences and humanities of neighboring universities. We find that universities specialized in applied sciences and engineering have a broad positive effect on new firm creation in a given province, this effect being especially strong in service industries. Conversely, the positive effect of university specialization in basic sciences is confined to new firm creation in science-based manufacturing industries, even if this effect is of large magnitude. Universities specialized in social sciences and humanities have no effect on new firm creation at the local level whatever industry category is considered.},
+ author = {Andrea Bonaccorsi and Massimo G. Colombo and Massimiliano Guerini and Cristina Rossi-Lamastra},
+ journal = {Small Business Economics},
+ number = {4},
+ pages = {837-863},
+ publisher = {Springer},
+ title = {University specialization and new firm creation across industries},
+ volume = {41},
+ year = {2013}
+}
+
+
+
+
+
+@article{10.1086/679062,
+ ISSN = {0734306X, 15375307},
+ URL = {http://www.jstor.org/stable/10.1086/679062},
+ abstract = {We analyze location choices of foreign-born science and engineering students receiving PhDs from US universities. Foreign students who stay in the United States are positively selected on observables. They tend to stay in the United States during periods of strong US economic growth and during periods of weak home country economic growth. Foreign students from higher-income countries and from recently democratized countries tend not to remain in the United States. Education and innovation may therefore be part of a virtuous cycle by which education enhances a country’s prospects for innovation and innovation makes the country more attractive for scientists and engineers.},
+ author = {Jeffrey Grogger and Gordon H. Hanson},
+ journal = {Journal of Labor Economics},
+ number = {S1},
+ pages = {S5-S38},
+ publisher = {[The University of Chicago Press, Society of Labor Economists, NORC at the University of Chicago]},
+ title = {Attracting Talent: Location Choices of Foreign-Born PhDs in the United States},
+ volume = {33},
+ year = {2015}
+}
+
+
+
+
+
+@article{10.15609/annaeconstat2009.115-116.125,
+ ISSN = {21154430, 19683863},
+ URL = {http://www.jstor.org/stable/10.15609/annaeconstat2009.115-116.125},
+ abstract = {This paper analyzes the effects of top nanoscale scientists on industry entry in the comparative context of 5 major areas of science and technology, extending the concept of star scientist to all areas of science and technology. The results for nanotechnology are replicated using the comprehensive list of firms from NanoBank.org that provide an alternative industry entry measure not available for other high-tech fields. We follow careers 1981-2004 for 5,401 stars as identified in ISIHighlyCited.comSM, using their publication history to locate them each year. The number of stars in a U.S. region or in one of the top-25 science and technology countries generally has a consistently significant and quantitatively large positive effect on the probability of firm entry in the same area of science and technology. Other measures of academic knowledge stocks have weaker and less consistent effects. Thus the stars themselves rather than their potentially disembodied discoveries play a key role in the formation or transformation of high-tech industries. We identify separate economic geography effects in poisson regressions for the 179 BEA-defined U.S. regions, but not for the 25 countries analysis. Stars become more concentrated over time, moving from areas with relatively few peers to those with many in their discipline. A counter-flow operating on the U.S. versus the other 24 countries is the tendency of foreign-born American stars to return to their homeland when it develops sufficient strength in their area of science and technology. In contrast high impact articles and university articles and patents all tend to diffuse, becoming more equally distributed over time. JEL: O31, J61, O33, J44, M13, R12 / KEY WORDS: Nanotechnology, Nanoscale Scientist, Star Scientist, Firm Entry, High Technology, Scientist Migration, Geographic Concentration, Geographic Diffusion},
+ author = {Lynne G. Zucker and Michael R. Darby},
+ journal = {Annals of Economics and Statistics},
+ number = {115/116},
+ pages = {125-175},
+ publisher = {[GENES, ADRES]},
+ title = {Movement of Star Scientists and Engineers and High-Tech Firm Entry},
+ year = {2014}
+}
+
+
+
+
+
+@article{10.2307/24029295,
+ ISSN = {00129682, 14680262},
+ URL = {http://www.jstor.org/stable/24029295},
+ abstract = {This paper considers mechanism design problems in environments with ambiguitysensitive individuals. The novel idea is to introduce ambiguity in mechanisms so as to exploit the ambiguity sensitivity of individuals. Deliberate engineering of ambiguity, through ambiguous mediated communication, can allow (partial) implementation of social choice functions that are not incentive compatible with respect to prior beliefs. We provide a complete characterization of social choice functions partially implementable by ambiguous mechanisms.},
+ author = {Subir Bose and Ludovic Renou},
+ journal = {Econometrica},
+ number = {5},
+ pages = {1853-1872},
+ publisher = {The Econometric Society},
+ title = {MECHANISM DESIGN WITH AMBIGUOUS COMMUNICATION DEVICES},
+ volume = {82},
+ year = {2014}
+}
+
+
+
+
+
+@article{10.2307/43697458,
+ ISSN = {03170861, 19119917},
+ URL = {http://www.jstor.org/stable/43697458},
+ abstract = {Dans cet article, je vise quatre objectifs. Premièrement, je présente l'évolution de l'immigration de travailleurs qualifiés en Australie au cours des dernières décennies sur le plan du nombre d'immigrants, de leurs pays d'origine et de la voie d'entrée qui leur a permis de s'installer au pays. Deuxièmement, je décris la stratégie sur laquelle s'est appuyée la réforme du système fédéral australien de reconnaissance des qualifications acquises à l'étranger, et particulièrement le rôle des études menées par les parlementaires pour améliorer les résultats obtenus. Troisièmement, je rends compte du rôle de plus en plus important qu'ont joué, dans cette réforme, certains organismes de réglementation au moment où les trois quarts des immigrants qualifiés étaient des travailleurs temporaires et où l'on questionnait de plus en plus la capacité de ces organismes à faciliter les flux de migration au XXIe siècle. Quatrièmement, j'évalue les effets de la réforme sur l'évolution de l'acceptation d'immigrants qualifiés et sur les revenus de ces derniers pendant leurs premières années de travail dans leur pays d'adoption. Je conclus en tirant des leçons de cette expérience australienne qui pourraient être utiles au Canada. This paper has four aims. First, it defines the extent to which skilled migration to Australia has changed in recent decades in terms of scale, source country, and entry mode. Second, it describes Australia's federally driven foreign qualification recognition (FQR) reform strategy, including the pressure imposed by successive parliamentary reviews to improve outcomes. Third, it reports the growing engagement of select health regulators in reform, at a time when temporary workers constitute three-quarters of skilled migrants, and the question increasingly asked is whether regulatory bodies have the agility to facilitate twenty-first century labour migration flows. Finally, it assesses the contribution of qualification recognition reform to skilled migrants' recognition and early employment outcomes. Key learnings from Australia's FQR experience are then highlighted, of potential policy relevance to Canada.},
+ author = {LESLEYANNE HAWTHORNE},
+ journal = {Canadian Public Policy / Analyse de Politiques},
+ pages = {S173-S187},
+ publisher = {[University of Toronto Press, Canadian Public Policy]},
+ title = {The Impact of Skilled Migration on Foreign Qualification Recognition Reform in Australia},
+ volume = {41},
+ year = {2015}
+}
+
+
+
+
+
+@article{10.1086/676038,
+ ISSN = {23335955, 23335963},
+ URL = {http://www.jstor.org/stable/10.1086/676038},
+ abstract = {AbstractThe Clean Air Act has assumed the central role in US climate policy, directing the development of regulations governing greenhouse gas emissions from existing coal-fired power plants. This paper uses a model of power plant operation and efficiency investments to compare the cost-effectiveness of alternative policies to reduce greenhouse gas emissions from coal plants. We empirically estimate the key model parameters from a data set of the operation of coal-fired generating units over 25 years. We find that a 10% increase in coal prices causes a 0.1%–0.4% improvement in efficiency (electricity production per ton of coal), which is broadly consistent with engineering assessments of the cost of improving efficiency. We also find that coal prices have a significant effect on utilization. Using the estimates to compare alternative policies, we find performance standards are less efficient than a tax because they cause greater utilization.},
+ author = {Joshua Linn and Erin Mastrangelo and Dallas Burtraw},
+ journal = {Journal of the Association of Environmental and Resource Economists},
+ number = {1/2},
+ pages = {97-134},
+ publisher = {[Association of Environmental and Resource Economists, University of Chicago Press]},
+ title = {Regulating Greenhouse Gases from Coal Power Plants under the Clean Air Act},
+ volume = {1},
+ year = {2014}
+}
+
+
+
+
+
+@article{10.2307/43200629,
+ ISSN = {13221833, 14474735},
+ URL = {http://www.jstor.org/stable/43200629},
+ abstract = {This paper documents the history of coastal management in Byron Bay and its implication for the property rights of landowners and other stakeholders. It finds that, until recently, planning for an uncertain future in a warming climate has overshadowed more immediate issues. The NSW Government has recently signalled its intention to allow individual landowners the right to apply to protect their properties from erosive events, thereby removing the need for councils to invoke statewide sea-level-rise projections. But these proposed changes fail to address the medium-term (~40 years) problem, whilst promoting ad hoc coastal protection measures. This paper argues that medium-term engineering solutions, including beach nourishment to defend some residential areas, should not be ruled out a priori. Parts of the present coastline may well need to be abandoned as they become impractical and too expensive to protect, but it is argued that this time has not yet arrived.},
+ author = {Kevin Roche and Ian Goodwin and John McAneney},
+ journal = {Agenda: A Journal of Policy Analysis and Reform},
+ number = {1},
+ pages = {21-39},
+ publisher = {ANU Press},
+ title = {Management of the Coastal Zone in Byron Bay: The Neglect of Medium-term Considerations},
+ volume = {20},
+ year = {2013}
+}
+
