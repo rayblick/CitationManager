@@ -26,7 +26,8 @@ class Bibtex(object):
         self.metadata, self.stemmed_words, self.original_words = bh.process_citations_handle(docpath, docformat)
 
 
-    def predict_citation_label(self, testpath='data/test', pattern='stemmed', targetlabelname='journal'):
+    def predict_citation_label(self, testpath='../data/bibtex/test', 
+            pattern='stemmed', targetlabelname='journal'):
         # create labels
         if pattern == "original":
             idtrain, ylabels, xdata = gh.create_labels(self.original_words, targetlabelname)
