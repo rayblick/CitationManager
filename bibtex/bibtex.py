@@ -57,6 +57,6 @@ class Bibtex(object):
         
         # print
         df = ([y for y in zip(idtest, ytest, [x for x in predicted])])
-        resultsDF = pd.DataFrame(df, columns=['URL','journal','predicted'])
-        return pd.merge(md,resultsDF, left_on=['URL','journal'], right_on=['URL','journal'])
+        resultsDF = pd.DataFrame(df, columns=['URL','journal','prediction'])
+        return pd.merge(md, resultsDF, left_on=['URL','journal'], right_on=['URL','journal'])
 

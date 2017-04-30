@@ -15,7 +15,34 @@ stemmer.stem("Running")
 
 def doc_finder_handle(basepath, fileformat):
     """
-    Finds files of a particular format in the basepath.
+    Finds files of a particular format in dir that is given in basepath.
+
+    Parameters
+    ----------
+    arg1: String defining a file path
+    arg2: String defining document format 
+
+    Default args
+    ------------
+    None
+
+    Exceptions
+    ----------
+    None
+
+    Usage
+    -----
+    # add test.txt to data/test dir
+    doc_finder_handle(data/test, 'txt')
+
+    Returns
+    -------
+    ['text.txt']
+
+    Doctest
+    -------
+    None
+
     """
     # place holder
     docs = []
@@ -33,19 +60,27 @@ def word_cleaning_handle(string_of_text):
     Converts a string to a dictionary of words. 
     
     Parameters
-    -----------
+    ----------
     arg1: string
+
+    Default args
+    ------------ 
+    None
+
+    Exceptions
+    ----------
+    None
     
     Usage
     ------
     word_cleaning_handle('this test')
     
     Returns
-    --------
+    -------
     {'this': 1, 'test': 1}
     
     Doctest
-    --------
+    -------
     >>> word_cleaning_handle('text65[12];:')
     {'text': 1}
     """
@@ -71,6 +106,34 @@ def word_cleaning_handle(string_of_text):
 
 
 def remove_stopwords(dictionary):
+    """
+    Removes single letters (e.g. 'a') and stop words (e.g. 'the').
+
+    Parameters
+    ----------
+    arg1: dictionary of word-count pairs
+
+    Exceptions
+    ----------
+    Try to stem each word. Exception returns the original word.
+
+    Usage
+    -----
+    remove_stopwords({'running': 5})
+
+    Returns
+    -------
+    Two dictionaries; 
+        1) original words 
+        2) stemmed words
+    ({'running': 5}, {'run': 5})
+
+    Doctest
+    -------
+    >>> remove_stopwords({'this':1, 'running':5, 'testing': 2})
+    ({'running': 5, 'testing': 2}, {'run': 5, 'test': 2})
+
+    """
     # Placeholder for output
     stemmed_journal_words = {}
     original_journal_words = {}
@@ -102,15 +165,68 @@ def remove_stopwords(dictionary):
     return original_journal_words, stemmed_journal_words
 
 
+
 def deduplicate_dictionary(listofdictionaries):
     """
     Removes duplicate dictionaries in a list.
+
+    Parameters
+    ----------
+    arg1: list containing dictionaries
+
+    Exceptions
+    ----------
+    None
+
+    Usage
+    -----
+    # list
+    list_of_dictionaries = [{'dict1': 2}, 
+                            {'dict1': 2}, 
+                            {'dict2': 3}]
+    # run
+    deduplicate_dictionary(list_of_dictionaries)
+
+    Returns
+    -------
+    No order is assumed in the output
+    [{'dict1': 2}, {'dict2': 3}]
+
+    Doctest
+    -------
+    >>> deduplicate_dictionary([{'test': 2}, {'test': 2}])
+    [{'test': 2}]
+
     """
     return [dict(tupleized) for tupleized in set(tuple(item.items()) for item in listofdictionaries)]
 
 
 def deduplicate_listoflists(listoflists):
     """
+    Remove double ups in lists.
+
+    Parameters
+    ----------
+    arg1: list of lists
+
+    Exceptions
+    ----------
+    None
+
+    Usage
+    -----
+    deduplicate_listoflists([['test'], 
+                             ['test']])
+
+    Returns
+    -------
+    [['test']]
+
+    Doctest
+    -------
+    >>> deduplicate_listoflists([[1,2], [1,2]])
+    [[1, 2]]
+    
     """
     temp=[]
     for i in listoflists:
@@ -123,6 +239,52 @@ def list_of_dictionaries_to_dataframe(data):
     """
     Uses the first dictionary keys to build the headers.
     Then appends all data to the df.
+
+    Parameters
+    ----------
+    arg1: list of dictionaries
+
+    Exceptions
+    ----------
+    None
+
+    Usage
+    -----
+    list_of_dictionaries_to_dataframe([{'Field': 'Science', "Issue": 1}, 
+                                       {'Field': 'Art', "Issue": 23}])
+
+    Returns
+    -------
+    pandas dataframe
+
+    output =
+    ---------------------------------
+    |   ID  |    Field    |  Issue  |
+    ---------------------------------
+    |   0   |    Science  |   1.0   |
+    |   1   |    Art      |   23.0  |
+    ---------------------------------
+
+
+    Mismatch Error
+    --------------
+    If dictionary keys dont match then ne columns are generated in the output
+    Example,
+    list_of_dictionaries_to_dataframe([{'Field': 'Science', "Issue": 1}, 
+                                       {'Topic': 'Art', "Issue": 23}]) 
+    output =
+    -------------------------------------------
+    |   ID  |    Field    |  Issue  |  Topic  |
+    -------------------------------------------
+    |   0   |    Science  |   1.0   |  NaN    |
+    |   1   |    NaN      |   23.0  |  Art    |
+    -------------------------------------------
+
+
+    Doctest
+    -------
+    None
+
     """
     myDF = pd.DataFrame(columns = data[0].keys())
     for citation in data:
@@ -132,6 +294,55 @@ def list_of_dictionaries_to_dataframe(data):
 
 def create_labels(data, labelname):
     """
+    Generates labels, data and identifier fields for analysis.    
+
+    Parameters
+    ----------
+    arg1: List of lists, each list contains 2 dictionaries.
+    arg2: String specifying a key to use as labels 
+
+    Exceptions
+    ----------
+    None
+
+    Usage
+    -----
+    data = [
+            [{'URL': 'fake@email.com',
+              'journal': 'Ecology',
+              'title': 'Home ranges of a bird'},
+             {'aerial': 1,
+              'aim': 1,
+              'area': 1,
+              'assemblages': 1}],
+
+            [{'URL': 'fake2@email.com',
+              'journal': 'Biology',
+              'title': 'Invasion of a rat'},
+             {'cover': 1,
+              'toxic': 1,
+              'prey': 1,
+              'predator': 1}]
+           ]
+    
+    create_labels(data, 'journal')
+
+    Returns
+    -------
+    Three lists each in the order of processing.
+        1) identifier (list)
+        2) labelname (list)
+        3) word counts (dictionary) 
+
+    (['fake@email.com', 'fake2@email.com'],
+     ['Ecology', 'Biology'],
+     [{'aerial': 1, 'aim': 1, 'area': 1, 'assemblages': 1},
+      {'cover': 1, 'predator': 1, 'prey': 1, 'toxic': 1}])
+
+    Doctest
+    -------
+    None
+    
     """
     ylabels = []
     identifier = []
