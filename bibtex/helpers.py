@@ -2,6 +2,9 @@
 Helpers to parse bibtex citations.
 """
 import re
+import sys
+sys.path.append('..')
+from generic import helpers as gh
 
 def bibtex_splitter(file):
     """
@@ -58,3 +61,67 @@ def bibtex_splitter(file):
 
 
 
+def process_citations_handle(docpath, docformat):
+    """Parse documents containing bibtex citations."""
+
+    # placeholders
+    original_words = []
+    stemmed_words = []
+    metadata = []
+
+    # collect documents
+    docs = gh.doc_finder_handle(docpath, docformat)
+
+    # loop over docs
+    for each_file in docs:
+
+        # open text file
+        text = open(each_file, 'r') 
+	
+        # split text
+        bs = bibtex_splitter(text)
+
+        # read in each article
+        for article in bs:
+			
+            # skip if no data
+            if article == {}:
+                continue
+		   
+            else:
+                try:
+                    # temp palce holder
+                    temp = []
+				    
+                    # Convert string to words dictionary
+                    output_text = gh.word_cleaning_handle(article['abstract'])
+
+                    # Drop stopwords and apply stemming
+                    originalwords, stemmedwords = gh.remove_stopwords(output_text)
+					    
+                    # collect article attibutes
+                    #article.pop('abstract', None)
+                    if article['abstract'] != {}:
+                        article['abstract'] = "Y"
+					    
+                    # Append results
+                    original_words.append([article, originalwords])
+                    stemmed_words.append([article, stemmedwords])
+					    
+                except:
+                    pass
+                    
+                finally:
+                    # Append results
+                    metadata.append(article)    
+
+    # Drop duplicates
+    metadata = gh.deduplicate_dictionary(metadata) 
+    stemmed_words = gh.deduplicate_listoflists(stemmed_words)   
+    original_words = gh.deduplicate_listoflists(original_words)
+
+    # Create table for article details
+    metadata = gh.list_of_dictionaries_to_dataframe(metadata)        
+
+    # Return results
+    return metadata, stemmed_words, original_words

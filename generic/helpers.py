@@ -134,14 +134,16 @@ def create_labels(data, labelname):
     """
     """
     ylabels = []
+    identifier = []
     xdicts = []
 
     for i in range(len(data)):
         label = data[i][0][labelname]
         ylabels.append(label)
+        identifier.append(data[i][0]["URL"])
         xdicts.append(data[i][1])
 
-    return ylabels, xdicts
+    return identifier, ylabels, xdicts
 
 
 

@@ -1,0 +1,36 @@
+
+
+@article{10.2307/41240786,
+ ISSN = {00143820, 15585646},
+ URL = {http://www.jstor.org/stable/41240786},
+ abstract = {The tempo and mode of body size evolution on islands are believed to be well known. It is thought that body size evolves relatively quickly on islands toward the mammalian modal value, thus generating extreme cases of size evolution and the island rule. Here, we tested both theories in a phylogenetically explicit context, by using two different species-level mammalian phylogenetic hypotheses limited to sister clades dichotomizing into an exclusively insular and an exclusively mainland daughter nodes. Taken as a whole, mammals were found to show a largely punctuational mode of size evolution. We found that, accounting for this, and regardless of the phylogeny used, size evolution on islands is no faster than on the continents. We compared different selection regimes using a set of Ornstein-Uhlenbeck models to examine the effects of insularity of the mode of evolution. The models strongly supported clade-specific selection regimes. Under this regime, however, an evolutionary model allowing insular species to evolve differently from their mainland relatives performs worse than a model that ignores insularity as a factor. Thus, insular taxa do not experience statistically different selection from their mainland relatives.},
+ author = {Pasquale Raia and Shai Meiri},
+ journal = {Evolution},
+ number = {7},
+ pages = {1927-1934},
+ publisher = {[Society for the Study of Evolution, Wiley]},
+ title = {THE TEMPO AND MODE OF EVOLUTION: BODY SIZES OF ISLAND MAMMALS},
+ volume = {65},
+ year = {2011}
+}
+
+
+
+
+
+@article{10.2307/2411190,
+ ISSN = {00143820, 15585646},
+ URL = {http://www.jstor.org/stable/2411190},
+ abstract = {Since Zuckerkandl and Pauling (1962, 1965) proposed the molecular clock, many studies seem to have supported their prediction that rates of molecular and morphological evolution generally will be decoupled. Most of these studies were aimed at taxa in which rates of morphological evolution were thought to vary greatly a priori. For the current survey eight diverse taxa were systematically chosen from published studies without regard to prior expectations about rates. Two approaches showed that rates of molecular and morphological evolution may usually be coupled. First, correlations in the total number of changes accumulated in terminal taxa suggest that some mechanism alters the rates of both morphological and molecular evolution in concert. Second, node-density effects were removed statistically, and average corrected base-to-tip totals were compared among sister clades. Across all taxa 50 of 72 of these corrected contrasts support the hypothesis that rates of molecular and morphological evolution are correlated; this finding is highly significant by a binomial test. Furthermore, there were positive correlations between inferred molecular and morphological branch lengths in seven of eight cases, which is also significant. These branch length correlations are consistent with the rate correlations, and suggest that amounts of molecular and morphological evolution often are correlated also. This study supports the assumptions of several phylogenetic methods, and highlights a need for new inquiries into many aspects of both molecular and morphological evolution.},
+ author = {Kevin E. Omland},
+ journal = {Evolution},
+ number = {5},
+ pages = {1381-1393},
+ publisher = {[Society for the Study of Evolution, Wiley]},
+ title = {Correlated Rates of Molecular and Morphological Evolution},
+ volume = {51},
+ year = {1997}
+}
+
+
+
