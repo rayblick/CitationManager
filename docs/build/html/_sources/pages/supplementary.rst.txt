@@ -1,5 +1,0 @@
-Reference 
-===========
-
-Generic Helper Functions
---------------------------
