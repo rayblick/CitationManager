@@ -11,6 +11,7 @@ Welcome to Citation Management's documentation!
    :caption: Contents:
 
    pages/intro
+   pages/install
    pages/project
    pages/data
    pages/bibtex

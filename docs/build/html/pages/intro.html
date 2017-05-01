@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Introduction &mdash; Citation Management a documentation</title>
+  <title>Citation Manager &mdash; Citation Management a documentation</title>
   
 
   
@@ -36,7 +36,7 @@
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="Citation Management a documentation" href="../index.html"/>
-        <link rel="next" title="Project Layout" href="project.html"/>
+        <link rel="next" title="Setup" href="install.html"/>
         <link rel="prev" title="Welcome to Citation Management’s documentation!" href="../index.html"/> 
 
   
@@ -85,15 +85,52 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="project.html">Project Layout</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data.html">Example Data</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Citation Manager</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aim">Aim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#business-rules">Business Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scope">Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#out-of-scope">Out of scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#assumptions">Assumptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#limitations">Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#time-management">Time Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#milestones">Milestones</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#base-install">Base Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#package-dependencies">Package Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#installing-dependencies">Installing Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#download-repository">Download Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#jupyter-notebook">Jupyter Notebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#local-install">Local Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#command-line">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#additional-notes">Additional Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#help">Help</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="project.html">Project Layout</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="project.html#modules">Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#module-helpers">Module Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#name-spacing">Name spacing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#generic-helpers">Generic Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#structure">structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#docstrings">Docstrings</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#name-spacing">Name spacing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#access">Access</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="bibtex.html">Bibtex</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="bibtex.html#jstor-citation-export">JSTOR Citation Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#jstor-bibtex-example">JSTOR Bibtex Example</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="wordcloud.html">wordcloud</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="wordcloud.html#dependencies">Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wordcloud.html#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wordcloud.html#example">Example</a></li>
 </ul>
 </li>
@@ -145,7 +182,7 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Introduction</li>
+      <li>Citation Manager</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -164,8 +201,85 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="citation-manager">
+<h1>Citation Manager<a class="headerlink" href="#citation-manager" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Authors:</th><td class="field-body">Ray Blick</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Version:</th><td class="field-body">0.0.1</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Last update:</th><td class="field-body">2017/05/01</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>The &#8220;Citation Manager&#8221; has two primary objectives. First, to process different types of citation content, such as exported citations from JSTOR (Bitbtex). Second, to provide a text-based prediction algorithm that evaluates titles, abstracts or keywords to predict the labelling of records. For example, evaluate an abstract to identify the most similar journal. This package is compartmentalised into specific standalone modules but share a set of generic helper methods. Setup files are provided for easy install to python. Example data are provided in the /data/ directory and uses namespace convention for module specific content. Share data are stored in /data/shared folder. All of the development for this project was performed using Jupyter Notebook and Atom text editor.</p>
+</div>
+<div class="section" id="aim">
+<h2>Aim<a class="headerlink" href="#aim" title="Permalink to this headline">¶</a></h2>
+<p>Process citations and predict labelling.</p>
+</div>
+<div class="section" id="business-rules">
+<h2>Business Rules<a class="headerlink" href="#business-rules" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="scope">
+<h2>Scope<a class="headerlink" href="#scope" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Python Language</li>
+<li>Text processing</li>
+<li>XML processing</li>
+<li>Text classifiers in Sklearn</li>
+<li>Data visualisation (wordclouds)</li>
+<li>Git and Github</li>
+<li>Sphinx documentation</li>
+<li>gh-pages</li>
+<li>Prediction accuracy</li>
+<li>Example lightweight analysis</li>
+</ul>
+</div>
+<div class="section" id="out-of-scope">
+<h2>Out of scope<a class="headerlink" href="#out-of-scope" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>User Interface</li>
+<li>Web application</li>
+<li>Deployment on PyPI</li>
+</ul>
+</div>
+<div class="section" id="assumptions">
+<h2>Assumptions<a class="headerlink" href="#assumptions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="limitations">
+<h2>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>None</li>
+</ul>
+</div>
+<div class="section" id="time-management">
+<h2>Time Management<a class="headerlink" href="#time-management" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Any free time</li>
+</ul>
+</div>
+<div class="section" id="milestones">
+<h2>Milestones<a class="headerlink" href="#milestones" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Build project/package layout</li>
+<li>Text-based processing</li>
+<li>Text classifier</li>
+<li>Documentation</li>
+<li>Setup files</li>
+</ul>
+</div>
 </div>
 
 
@@ -178,7 +292,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="project.html" class="btn btn-neutral float-right" title="Project Layout" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="install.html" class="btn btn-neutral float-right" title="Setup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="../index.html" class="btn btn-neutral" title="Welcome to Citation Management’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

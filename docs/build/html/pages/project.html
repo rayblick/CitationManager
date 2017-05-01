@@ -36,8 +36,8 @@
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="Citation Management a documentation" href="../index.html"/>
-        <link rel="next" title="Example Data" href="data.html"/>
-        <link rel="prev" title="Introduction" href="intro.html"/> 
+        <link rel="next" title="Data" href="data.html"/>
+        <link rel="prev" title="Setup" href="install.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -85,15 +85,55 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Project Layout</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data.html">Example Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Citation Manager</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#aim">Aim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#business-rules">Business Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#scope">Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#out-of-scope">Out of scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#assumptions">Assumptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#limitations">Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#time-management">Time Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#milestones">Milestones</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#base-install">Base Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#package-dependencies">Package Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#installing-dependencies">Installing Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#download-repository">Download Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#jupyter-notebook">Jupyter Notebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#local-install">Local Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#command-line">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#additional-notes">Additional Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#help">Help</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Project Layout</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#modules">Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-helpers">Module Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#name-spacing">Name spacing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#generic-helpers">Generic Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#structure">Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#docstrings">Docstrings</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#name-spacing">Name spacing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#access">Access</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="bibtex.html">Bibtex</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="bibtex.html#jstor-citation-export">JSTOR Citation Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#bibtex-format">BibTeX Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#example-data">Example Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#module">Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#example">Example</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="wordcloud.html">wordcloud</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="wordcloud.html#dependencies">Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wordcloud.html#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wordcloud.html#example">Example</a></li>
 </ul>
 </li>
@@ -166,6 +206,122 @@
             
   <div class="section" id="project-layout">
 <h1>Project Layout<a class="headerlink" href="#project-layout" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="modules">
+<h2>Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>bibtex</li>
+<li>generic</li>
+</ul>
+</div>
+<div class="section" id="module-helpers">
+<h2>Module Helpers<a class="headerlink" href="#module-helpers" title="Permalink to this headline">¶</a></h2>
+<p>All processing specific to a module is stored in a helper file and the code is reduced to a minimum in the module itself.</p>
+</div>
+<div class="section" id="name-spacing">
+<h2>Name spacing<a class="headerlink" href="#name-spacing" title="Permalink to this headline">¶</a></h2>
+<p>All folders are separated with module level name spacing.</p>
+<p><strong>Examples</strong></p>
+<ul class="simple">
+<li>./data/bibtex/files</li>
+<li>./data/othermodule/files</li>
+<li>./output/bibtex/files</li>
+<li>./output/othermodule/files</li>
+</ul>
+</div>
+<div class="section" id="generic-helpers">
+<h2>Generic Helpers<a class="headerlink" href="#generic-helpers" title="Permalink to this headline">¶</a></h2>
+<p>Generic helpers are not module specific and are implemmented in more than one module. It should be noted here that changes to these functions may affect the performance/functionality of more than one module. Generic helpers live in a neighbouing folder and the relative path names are imported using sys.path.append(&#8216;..&#8217;).</p>
+</div>
+<div class="section" id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>CitationManager
+  │
+  ├───bibtex
+  │   ├───__init__.py
+  │   ├───bibtex.py
+  │   └───helpers.py
+  │
+  ├───data
+  │   ├───bibtex
+  │   │    ├───test
+  │   │    ├───train
+  │   │    └───README.txt
+  │   │
+  │   └───shared
+  │
+  ├───dev
+  │   ├───.ipynb_checkpoints
+  │   ├───Exploration.ipynb
+  │   └───Testing.ipynb
+  │
+  ├───docs
+  │   ├───build
+  │   │   └───html <span class="c1">#Docs start at index.html</span>
+  │   └───source
+  │       └───pages
+  │
+  ├───generic
+  │   ├───__init__.py
+  │   └───helpers.py
+  │
+  ├───static
+  │   └───img
+  │
+  ├───output
+  │   └──bibtex
+  │
+  ├───__init__.py
+  ├───README.md <span class="c1">#Github landing page</span>
+  └───...#Project build files
+</pre></div>
+</div>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Github landing page (./README.md)</li>
+<li>Sphinx documentation (./docs)</li>
+<li>Document strings</li>
+<li>Comment lines</li>
+</ul>
+</div>
+<div class="section" id="docstrings">
+<h2>Docstrings<a class="headerlink" href="#docstrings" title="Permalink to this headline">¶</a></h2>
+<p>Each method has a break down of its applicaiton.</p>
+<p><strong>Example (generic helper method)</strong></p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">remove_stopwords</span><span class="p">(</span><span class="n">dictionary</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Removes single letters (e.g. &#39;a&#39;) and stop words (e.g. &#39;the&#39;).</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    arg1: dictionary of word-count pairs.</span>
+
+<span class="sd">    Exceptions</span>
+<span class="sd">    ----------</span>
+<span class="sd">    Try to stem each word. Exception returns the original word.</span>
+
+<span class="sd">    Usage</span>
+<span class="sd">    -----</span>
+<span class="sd">    remove_stopwords({&#39;running&#39;: 5})</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Two dictionaries;</span>
+<span class="sd">        1) original words</span>
+<span class="sd">        2) stemmed words</span>
+<span class="sd">    ({&#39;running&#39;: 5}, {&#39;run&#39;: 5})</span>
+
+<span class="sd">    Doctest</span>
+<span class="sd">    -------</span>
+<span class="sd">    &gt;&gt;&gt; remove_stopwords({&#39;this&#39;:1, &#39;running&#39;:5, &#39;testing&#39;: 2})</span>
+<span class="sd">    ({&#39;running&#39;: 5, &#39;testing&#39;: 2}, {&#39;run&#39;: 5, &#39;test&#39;: 2})</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Processing...</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -178,10 +334,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="data.html" class="btn btn-neutral float-right" title="Example Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="data.html" class="btn btn-neutral float-right" title="Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="intro.html" class="btn btn-neutral" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="install.html" class="btn btn-neutral" title="Setup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
