@@ -116,6 +116,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#generic-helpers">Generic Helpers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#structure">Structure</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#updating-documentation">Updating documentation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#docstrings">Docstrings</a></li>
 </ul>
 </li>
@@ -288,6 +289,34 @@
 <li>Document strings</li>
 <li>Comment lines</li>
 </ul>
+</div>
+<div class="section" id="updating-documentation">
+<h2>Updating documentation<a class="headerlink" href="#updating-documentation" title="Permalink to this headline">¶</a></h2>
+<p><strong>Windows</strong></p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout gh-pages
+del .git<span class="se">\i</span>ndex
+git clean -fdx
+echo. <span class="m">2</span>&gt;.nojekyll
+git checkout master docs/build/html
+xcopy .<span class="se">\d</span>ocs<span class="se">\b</span>uild<span class="se">\h</span>tml<span class="se">\*</span> .<span class="se">\ </span>/E
+rmdir /S docs
+git add -A
+git commit -m <span class="s2">&quot;publishing docs&quot;</span>
+git push origin gh-pages
+</pre></div>
+</div>
+<p><strong>Linux</strong></p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout gh-pages
+rm -rf .
+touch .nojekyll
+git checkout master docs/build/html
+mv ./docs/build/html/* ./
+rm -rf ./docs
+git add --all
+git commit -m <span class="s2">&quot;publishing docs&quot;</span>
+git push origin gh-pages
+</pre></div>
+</div>
 </div>
 <div class="section" id="docstrings">
 <h2>Docstrings<a class="headerlink" href="#docstrings" title="Permalink to this headline">¶</a></h2>
