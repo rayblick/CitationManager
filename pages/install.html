@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Setup &mdash; Citation Management a documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Citation Management a documentation" href="../index.html"/>
+        <link rel="next" title="Project Layout" href="project.html"/>
+        <link rel="prev" title="Citation Manager" href="intro.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Citation Management
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Citation Manager</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#aim">Aim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#business-rules">Business Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#scope">Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#out-of-scope">Out of scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#assumptions">Assumptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#limitations">Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#time-management">Time Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#milestones">Milestones</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#base-install">Base Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#package-dependencies">Package Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-dependencies">Installing Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#download-repository">Download Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#jupyter-notebook">Jupyter Notebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#local-install">Local Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#command-line">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#additional-notes">Additional Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#help">Help</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="project.html">Project Layout</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="project.html#modules">Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#module-helpers">Module Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#name-spacing">Name spacing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#generic-helpers">Generic Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#structure">Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html#docstrings">Docstrings</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#name-spacing">Name spacing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html#access">Access</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bibtex.html">Bibtex Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#class-name">Class Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#bound-methods">Bound Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#method-arguments">Method Arguments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#what-is-bibtex">What is BibTeX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#bibtex-format">BibTeX Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bibtex.html#changes-and-updates">Changes and Updates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="wordcloud.html">Wordcloud</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="wordcloud.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wordcloud.html#example">Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wordcloud.html#output">Output</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="supplementary.html">Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="supplementary.html#generic-helper-functions">Generic Helper Functions</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Citation Management</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Setup</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/pages/install.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="setup">
+<h1>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="base-install">
+<h2>Base Install<a class="headerlink" href="#base-install" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Download/Install Anaconda: <a class="reference external" href="https://www.continuum.io/downloads">https://www.continuum.io/downloads</a></li>
+</ul>
+</div>
+<div class="section" id="package-dependencies">
+<h2>Package Dependencies<a class="headerlink" href="#package-dependencies" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>glob</li>
+<li>sklearn</li>
+<li>pandas</li>
+<li><strong>wordcloud</strong> (requires install)</li>
+<li>Jupyter Notebook</li>
+</ul>
+</div>
+<div class="section" id="installing-dependencies">
+<h2>Installing Dependencies<a class="headerlink" href="#installing-dependencies" title="Permalink to this headline">¶</a></h2>
+<p><strong>Install wordcloud (linux)</strong></p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>conda install -c amueller <span class="nv">wordcloud</span><span class="o">=</span><span class="m">1</span>.3.1
+</pre></div>
+</div>
+<p><strong>Install wordcloud (Windows)</strong></p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1">#Download from http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud</span>
+pip install wordcloud‑1.3.1‑cp35‑cp35m‑win_amd64.whl
+</pre></div>
+</div>
+</div>
+<div class="section" id="download-repository">
+<h2>Download Repository<a class="headerlink" href="#download-repository" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>git clone https://github.com/rayblick/CitationManager
+</pre></div>
+</div>
+</div>
+<div class="section" id="jupyter-notebook">
+<h2>Jupyter Notebook<a class="headerlink" href="#jupyter-notebook" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nb">cd</span> CitationManager
+sudo jupyter notebook
+
+<span class="c1"># Navigate to module-level examples</span>
+<span class="c1"># e.g. /dev/bibtex.ipynb</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="local-install">
+<h2>Local Install<a class="headerlink" href="#local-install" title="Permalink to this headline">¶</a></h2>
+<p>TBA</p>
+</div>
+<div class="section" id="command-line">
+<h2>Command line<a class="headerlink" href="#command-line" title="Permalink to this headline">¶</a></h2>
+<p>TBA</p>
+</div>
+<div class="section" id="additional-notes">
+<h2>Additional Notes<a class="headerlink" href="#additional-notes" title="Permalink to this headline">¶</a></h2>
+<p><strong>Data</strong></p>
+<p>Each module has example data. Default arguments that require data will look in the &#8220;data/module/train&#8221; or &#8220;data/module/test&#8221; folders. To get started, you can add two additional folders and specify the new document path when calling each method.</p>
+<p><strong>Example</strong></p>
+<ul class="simple">
+<li>data/module/test/</li>
+<li>data/module/train/</li>
+<li>data/module/yourtestdata/addedfiles</li>
+<li>data/module/yourtraindata/addedfiles</li>
+</ul>
+</div>
+<div class="section" id="help">
+<h2>Help<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>docs/build/html/pages/reference.html</li>
+<li>Docstrings</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="project.html" class="btn btn-neutral float-right" title="Project Layout" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="intro.html" class="btn btn-neutral" title="Citation Manager" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ray Blick.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'a',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
