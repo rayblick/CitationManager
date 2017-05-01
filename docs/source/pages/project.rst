@@ -79,6 +79,42 @@ Documentation
 - Document strings
 - Comment lines
 
+
+Updating documentation
+------------------------
+
+**Windows**
+
+.. code-block:: bash
+
+    git checkout gh-pages
+    del .git\index
+    git clean -fdx
+    echo. 2>.nojekyll
+    git checkout master docs/build/html
+    xcopy .\docs\build\html\* .\ /E
+    rmdir /S docs
+    git add -A
+    git commit -m "publishing docs"
+    git push origin gh-pages
+
+
+**Linux**
+
+.. code-block:: bash
+
+    git checkout gh-pages
+    rm -rf .
+    touch .nojekyll
+    git checkout master docs/build/html
+    mv ./docs/build/html/* ./
+    rm -rf ./docs
+    git add --all
+    git commit -m "publishing docs"
+    git push origin gh-pages
+
+
+
 Docstrings
 -----------
 Each method has a break down of its applicaiton.
